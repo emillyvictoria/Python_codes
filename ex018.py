@@ -1,0 +1,10 @@
+from math import sin, cos, tan, radians
+print ('='*8, 'Seno, Cosseno e Tangente', '='*8)
+ang = float (input('Digite o ângulo que você deseja: '))
+rad = radians(ang)
+sen = sin(rad)
+coss = cos(rad)
+tg = tan(rad)
+print (f'O seno de {ang} é igual a {sen.__round__(2)}')
+print (f'O cossseno de {ang} é igual a {coss.__round__(2)}')
+print (f'A tangente de {ang} é igual a {tg.__round__(2)}')

@@ -1,0 +1,5 @@
+print ('='*10, 'A SUA FRASE', '='*10)
+frase = input('Qual a sua frase favorita? ').strip()
+print('A letra A aparece {} vezes nesta frase!'.format(frase.lower().count('a')))
+print('A posição da primeira letra A está em {}'.format(frase.lower().find('a')+1))
+print('A posição da última letra A está em {}'.format(frase.lower().rfind('a')+1))

@@ -1,0 +1,5 @@
+print ('='*10, 'Primeiro e Último Nome', '='*10)
+nome = input('Qual o seu nome? ')
+p1 = nome.split()
+print(f'O seu primeiro nome é: {p1[0]}')
+print(f'O seu último nome é: {p1[(len(p1)-1)]}')

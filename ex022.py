@@ -1,0 +1,7 @@
+print ('='*8, 'Manipulando um texto ;p', '='*8)
+nome = input('Qual é o seu nome completo? ').strip()
+print('Seu nome em letras maiúsuculas: ', nome.upper())
+print('Seu nome em letras minúsculas: ', nome.lower())
+print('Seu nome tem ', nome.__len__() - nome.count(' '), 'letras')
+div = nome.split()
+print('O seu primeiro nome tem ', div[0].__len__(), 'letras')
