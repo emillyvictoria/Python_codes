@@ -1,3 +1,4 @@
+#Testes com "for"
 Brasilia = 'Taguatinga', 'Guará', 'Bandeirante', 'Cruzeiro', 'Plano Piloto', 'Águas Claras'
 for cidade in Brasilia:
     print(cidade)
